@@ -1,3 +1,3 @@
-module github.com/jpeach/envoy-xds
+module github.com/jpeach/envoy-proto
 
 go 1.17
