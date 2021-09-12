@@ -27,6 +27,9 @@ proto::import() {
             --include="*.proto" \
             --exclude="*" \
             "$@" "${SRCROOT}/proto/"
+        if [ -r LICENSE ] ; then
+            cp LICENSE "${SRCROOT}/proto/LICENSE.${name}"
+        fi
     )
 
 }
