@@ -2,7 +2,6 @@
 
 set -o errexit
 set -o pipefail
-set -o xtrace 
 
 readonly HERE="$(cd $(dirname $0); pwd)"
 readonly SRCROOT="${HERE}"
